@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+div#container {
+    width: 100%;
+    height: 500px;
+    background: url('../images/bg1.jpg') top left no-repeat;
+    background-size: 100%;
+    border-bottom: solid green 5px;
+}
+
+
+a.link, a.visited {
+    color: dodgerblue;
+}
+
+
+footer div#msg input[type="email"] {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin: 25px 0 0;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+
+footer div#msg input[type="text"] {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin: 25px 0 0;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+
+footer div#msg textarea {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin: 25px 0 0;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+
+footer div#msg input[type="submit"] {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin: 25px 0 0;    
+}
+
+footer div#msg input[type="submit"] {
+    background: #333;
+    color: #eee;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    font: bold 15px Arial sans-serif;
+}
+footer div#msg input[type="submit"]:hover{
+    background-color:cadetblue;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+footer {
+    background: #eee;
+    padding: 20px;
+    
+    bottom: 0;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+footer div#about {
+    width: 350px;
+    height: 30px;
+    padding: 20px 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+footer div#msg {
+    margin: -25px auto 0;
+    width: 300px;
+}
+
+footer a {
+    margin-top: 0px;
+    margin-right: 120px;
+    float: right;
+}
+
+input[type=text], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=button] {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.info {
+    
+    background-size: 100%;
+}
+
+div#box {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+div.box1 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid grey;
+    padding: 25px;
+    margin: 25px;
+}
